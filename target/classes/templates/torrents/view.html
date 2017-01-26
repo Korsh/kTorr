@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <!--/*@thymesVar id="pageTitle" type="java.lang.String"*/-->
+    <title th:text="${pageTitle}">Title</title>
+</head>
+<body>
+    <!--/*@thymesVar id="progress" type="java.lang.String"*/-->
+    <div th:text="${progress}">progress</div>
+    <a href="/torrent/add">Create torrent</a>
+</body>
+</html>

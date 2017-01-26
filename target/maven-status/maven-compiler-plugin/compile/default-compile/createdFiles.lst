@@ -1,0 +1,4 @@
+com/korsh/torrent/Application.class
+com/korsh/torrent/web/torrentUpdateController.class
+com/korsh/torrent/web/torrentsListController.class
+com/korsh/torrent/web/model/torrentsListModel.class
